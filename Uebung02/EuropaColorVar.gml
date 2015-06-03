@@ -1,465 +1,238 @@
-Creator	"yFiles"
-Version	"2.11"
+Creator "JGraphT GML Exporter"
+Version 1
 graph
 [
-	hierarchic	1
-	label	""
-	directed	1
+	label ""
+	directed 0
 	node
 	[
-		id	0
-		label	"Deutschland"
+		id 1
+		label "Deutschland"
 		graphics
 		[
-			x	114.23179031148116
-			y	126.83260792379775
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#101010"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Deutschland"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#FF0000"
 		]
 	]
 	node
 	[
-		id	1
-		label	"Frankreich"
+		id 2
+		label "Frankreich"
 		graphics
 		[
-			x	114.23179031148122
-			y	311.2649385467603
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#0000FF"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Frankreich"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#101010"
 		]
 	]
 	node
 	[
-		id	2
-		label	"Spanien"
+		id 3
+		label "Spanien"
 		graphics
 		[
-			x	114.23179031148103
-			y	423.09754647055803
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#FF0000"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Spanien"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#FF0000"
 		]
 	]
 	node
 	[
-		id	3
-		label	"Portugal"
+		id 4
+		label "Portugal"
 		graphics
 		[
-			x	114.23179031148096
-			y	505.5239533417508
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#101010"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Portugal"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#101010"
 		]
 	]
 	node
 	[
-		id	4
-		label	"Oesterreich"
+		id 5
+		label "Oesterreich"
 		graphics
 		[
-			x	206.44795562296247
-			y	219.04877323527887
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#0000FF"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Oesterreich"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#101010"
 		]
 	]
 	node
 	[
-		id	5
-		label	"Schweiz"
+		id 6
+		label "Schweiz"
 		graphics
 		[
-			x	179.43846613824928
-			y	153.84209740851088
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#FF0000"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Schweiz"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#0000FF"
 		]
 	]
 	node
 	[
-		id	6
-		label	"Polen"
+		id 7
+		label "Polen"
 		graphics
 		[
-			x	114.23179031148112
-			y	15.0
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#FF0000"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Polen"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#101010"
 		]
 	]
 	node
 	[
-		id	7
-		label	"Belgien"
+		id 8
+		label "Belgien"
 		graphics
 		[
-			x	22.015625
-			y	219.0487732352791
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#00FF00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Belgien"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#0000FF"
 		]
 	]
 	node
 	[
-		id	8
-		label	"Niederlande"
+		id 9
+		label "Niederlande"
 		graphics
 		[
-			x	49.02511448471313
-			y	153.842097408511
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#FF0000"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Niederlande"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#101010"
 		]
 	]
 	node
 	[
-		id	9
-		label	"GrossBritannien"
+		id 10
+		label "GrossBritannien"
 		graphics
 		[
-			x	330.01953125
-			y	15.0
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#101010"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"GrossBritannien"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#101010"
 		]
 	]
 	node
 	[
-		id	10
-		label	"Irland"
+		id 11
+		label "Irland"
 		graphics
 		[
-			x	412.44593812119285
-			y	15.0
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#FF0000"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Irland"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#FF0000"
 		]
 	]
 	node
 	[
-		id	11
-		label	"Italien"
+		id 12
+		label "Italien"
 		graphics
 		[
-			x	179.43846613824934
-			y	284.25544906204703
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#101010"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Italien"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#FF0000"
 		]
 	]
 	node
 	[
-		id	12
-		label	"Luxemburg"
+		id 13
+		label "Luxemburg"
 		graphics
 		[
-			x	49.02511448471323
-			y	284.25544906204715
-			w	30.0
-			h	30.0
-			type	"rectangle"
-			fill	"#FF0000"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Luxemburg"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
+			fill "#00FF00"
 		]
 	]
 	edge
 	[
-		source	0
-		target	1
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 1
+		source 1
+		target 2
 	]
 	edge
 	[
-		source	0
-		target	5
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 2
+		source 1
+		target 6
 	]
 	edge
 	[
-		source	0
-		target	6
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 3
+		source 1
+		target 7
 	]
 	edge
 	[
-		source	0
-		target	7
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 4
+		source 1
+		target 8
 	]
 	edge
 	[
-		source	0
-		target	8
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 5
+		source 1
+		target 9
 	]
 	edge
 	[
-		source	0
-		target	4
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 6
+		source 1
+		target 5
 	]
 	edge
 	[
-		source	0
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 7
+		source 1
+		target 13
 	]
 	edge
 	[
-		source	5
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 8
+		source 6
+		target 12
 	]
 	edge
 	[
-		source	5
-		target	1
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 9
+		source 6
+		target 2
 	]
 	edge
 	[
-		source	5
-		target	4
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 10
+		source 6
+		target 5
 	]
 	edge
 	[
-		source	9
-		target	10
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 11
+		source 10
+		target 11
 	]
 	edge
 	[
-		source	4
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 12
+		source 5
+		target 12
 	]
 	edge
 	[
-		source	1
-		target	7
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 13
+		source 2
+		target 8
 	]
 	edge
 	[
-		source	1
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 14
+		source 2
+		target 12
 	]
 	edge
 	[
-		source	1
-		target	2
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 15
+		source 2
+		target 3
 	]
 	edge
 	[
-		source	1
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 16
+		source 2
+		target 13
 	]
 	edge
 	[
-		source	7
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 17
+		source 8
+		target 13
 	]
 	edge
 	[
-		source	7
-		target	8
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 18
+		source 8
+		target 9
 	]
 	edge
 	[
-		source	2
-		target	3
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 19
+		source 3
+		target 4
 	]
 ]

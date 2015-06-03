@@ -81,7 +81,7 @@ public class MyGMLExporter<V, E>
     private HashMap<Integer, String> colorMap;
 
     private void initMap(){
-    	colorMap.put(0, "#101010"); // black
+    	colorMap.put(0, "#101010"); // dreckig grau
     	colorMap.put(1, "#FF0000"); // red
     	colorMap.put(2, "#0000FF"); // blue
     	colorMap.put(3, "#00FF00"); // green
