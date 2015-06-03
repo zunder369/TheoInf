@@ -23,6 +23,12 @@ public class PerfektesMatching {
 	// [1] https://www.tu-ilmenau.de/fileadmin/public/iti/Lehre/EAII/WS11/Kapitel2-Matchings.pdf
 	// Gale Shapely Heiratsantrags-Algorithmus
 	
+	/**
+	 * TODO laeuft nocht nicht...
+	 * TODO
+	 * TODO
+	 */
+	
 	protected Set<Vertex> W; // Frauen - Studenten
 	protected Set<Vertex> U; // Maenner - Laender
 	protected Graph g;

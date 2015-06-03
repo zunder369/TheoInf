@@ -11,9 +11,9 @@ import GraphReader.Vertex;
 
 public class InsertionAlgorithm {
 
-	private InsertionHeuristic heuristic;
+	private SelectionHeuristic heuristic;
 	
-	public InsertionAlgorithm(InsertionHeuristic eh){
+	public InsertionAlgorithm(SelectionHeuristic eh){
 		this.heuristic = eh;
 	}
 	

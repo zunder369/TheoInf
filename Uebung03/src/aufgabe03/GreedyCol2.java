@@ -16,9 +16,9 @@ import aufgabe1.GreedyCol;
 
 public class GreedyCol2 extends GreedyCol {
 
+	private static final double RANDOM = 0.5;
 	protected Set<Vertex> coloratedVertices;
 	protected int currentColor = 1;
-	private HashMap<String, Vertex> verticeMap = new HashMap<String, Vertex>();
 	
 	public GreedyCol2(){
 		coloratedVertices = new HashSet<Vertex>();
@@ -26,11 +26,9 @@ public class GreedyCol2 extends GreedyCol {
 	
 	public Graph<Vertex, DefaultWeightedEdge> colorate(Graph<Vertex, DefaultWeightedEdge> g){
 		
+		// initialisierung - Graph kopieren und HashMap fuellen
 		Graph<Vertex, DefaultWeightedEdge> newGraph = GraphStuff.buildDeepCopy(g);
 		initDefaultColor(newGraph);
-		for (Vertex vertex : newGraph.vertexSet()) {
-			verticeMap.put(vertex.getName(), vertex);
-		}
 		
 		// dareal einfaerben
 		Graph<Vertex, DefaultWeightedEdge> V = GraphStuff.buildDeepCopy(newGraph); // zum Knoten entfernen
@@ -48,12 +46,9 @@ public class GreedyCol2 extends GreedyCol {
 	protected void colorateVertices(
 			Graph<Vertex, DefaultWeightedEdge> g, Set<Vertex> verticesToColorate) {
 		// colorate Vertices of Set with currentColor
-
 		for (Vertex vertex : verticesToColorate) {
-			// check uncolored set for vertice if found colorate and delete from uncolored
-			map.get(vertex.getName()).setData(currentColor+"");
+			verticeNameMap.get(vertex.getName()).setData(currentColor+"");
 		}
-		
 		if(currentColor > N){
 			System.err.println("Graph kann nicht mit "+N+" Farben gefärbt werden");
 			System.exit(-1);
@@ -64,39 +59,35 @@ public class GreedyCol2 extends GreedyCol {
 	protected Set<Vertex> findIndependentSet(Graph<Vertex, DefaultWeightedEdge> g){
 		// U = null, V = V
 		Set<Vertex> u = new HashSet<Vertex>(); // U das unabhaengige Set das gesucht wird
-		Graph<Vertex, DefaultWeightedEdge> v = GraphStuff.buildDeepCopy(g); // V , aus V werten Knoten entfernt
+		Set<Vertex> vertices = g.vertexSet();
 		
-		while(v.vertexSet().size() != 0){// solange noch Knoten in V sind
+		while(vertices.size() != 0){// solange noch Knoten in V sind
 			// suche Knoten mit minimalem Grad in V
-			List<Vertex> minDegree = findMinDegree((UndirectedGraph)v);
-			// wähle einen der Knoten zufällig aus (randomisierung)
-			Vertex c = minDegree.get((int)Math.random()*minDegree.size());
+			Vertex minDegree = findVerticeOfMinDegree((UndirectedGraph)g);// missing Random
 			// Füge den Knoten U hinzu
-			u.add(c);
+			u.add(minDegree);
 			// Lösche den Knoten und seine Nachbarn aus V
-			v.removeAllVertices(GraphStuff.getNeighbors(v, c));
-			v.removeVertex(c);
+			vertices.removeAll(GraphStuff.getNeighbors(g, minDegree));
+			vertices.remove(minDegree);
 		}
 		return u;
 	}
 	
 	
-	private List<Vertex> findMinDegree(UndirectedGraph<Vertex, DefaultWeightedEdge> v) {
-		HashMap<Integer, List<Vertex>> degreeMap = new HashMap<Integer, List<Vertex>>();
+	private Vertex findVerticeOfMinDegree(UndirectedGraph<Vertex, DefaultWeightedEdge> v) {
 		int min = Integer.MAX_VALUE;
+		Vertex vert = null;
 		for (Vertex vertex : v.vertexSet()) { // laufe ueber alle Knoten
 			int degree = v.degreeOf(vertex); // hole Grad des Knoten
-			List<Vertex> cur = degreeMap.get(degree); // hole aus Map die Liste mit den Knoten vom Grad
-			if(cur == null){
-				cur = new ArrayList<Vertex>();
-			}
 			if(degree < min){
 				min = degree;
+				vert = vertex;
 			}
-			if(degree == min) // Performancegewinn
-				cur.add(vertex);
+//			else if(degree == min && Math.random() < RANDOM){ // randomisiert Knoten im Minimum wechseln
+//				vert = vertex;
+//			}
 		}
-		return degreeMap.get(min);	
+		return vert;	
 	}
 
 	

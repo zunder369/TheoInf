@@ -30,7 +30,7 @@ public class SudokuGraph extends GreedyColVar {
 			// schau nach ob eine Farbe vorhanden, wenn ja, -1 (weil arrays bei 0 anfangen) 
 			// spaeter muss +1 gemacht werden beim rausschreiben
 			array[i].setData(array[i].getData() == null ? null : Integer.valueOf(array[i].getData())-1+"");
-			map.put(array[i].getName(), array[i]);
+			verticeNameMap.put(array[i].getName(), array[i]);
 		}
 	}
 	

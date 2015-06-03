@@ -12,7 +12,7 @@ import GraphReader.Vertex;
 
 public class GreedyCol {
 
-	protected Map<String, Vertex> map = new HashMap<String, Vertex>();
+	protected Map<String, Vertex> verticeNameMap = new HashMap<String, Vertex>();
 	protected final int N = 16;
 	protected Graph<Vertex, DefaultWeightedEdge> graph;
 	
@@ -34,7 +34,7 @@ public class GreedyCol {
 			for (Vertex v : vertices) {
 				int i = getColor(newGraph, v);
 				System.out.println(v + " getColor(): "+ i);
-				map.get(v.getName()).setData(i+"");
+				verticeNameMap.get(v.getName()).setData(i+"");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -51,7 +51,7 @@ public class GreedyCol {
 		Vertex[] array = vertices.toArray(new Vertex[vertices.size()]);
 		for (int i = 0; i < array.length; i++) {
 			array[i].setData(null);
-			map.put(array[i].getName(), array[i]);
+			verticeNameMap.put(array[i].getName(), array[i]);
 		}
 		
 	}

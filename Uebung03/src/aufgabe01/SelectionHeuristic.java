@@ -7,7 +7,7 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 
 import GraphReader.Vertex;
 
-public interface InsertionHeuristic {
+public interface SelectionHeuristic {
 
 	public Vertex nextVertex(Graph<Vertex, DefaultWeightedEdge> fullGraph, Set<Vertex> usedVertices);
 	

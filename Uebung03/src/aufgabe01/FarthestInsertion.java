@@ -7,16 +7,17 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 
 import GraphReader.Vertex;
 
-public class FarthestInsertion implements InsertionHeuristic {
+public class FarthestInsertion implements SelectionHeuristic {
 
 	@Override
 	public Vertex nextVertex(Graph<Vertex, DefaultWeightedEdge> fullGraph, Set<Vertex> usedVertices) {
-		
 		Set<Vertex> vertices = fullGraph.vertexSet();
 		double maxDist = 0;
 		Vertex maxDistV = null;
 		
 		for(Vertex v: vertices){
+			if(usedVertices.size() == 0) // 1. Knoten vom TSP
+				return v;
 			if(usedVertices.contains(v)) continue; // nur knoten die noch nicht in tour
 			
 			// schaue für jeden Knoten im Graph die benutzten Knoten durch und bestimme max dist

@@ -25,7 +25,7 @@ public class GreedyColVar extends GreedyCol{
 					i = getColor(newGraph, v);
 				else // hatte schon farbe
 					i = Integer.valueOf(v.getData());
-				map.get(v.getName()).setData(i+"");
+				verticeNameMap.get(v.getName()).setData(i+"");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -3,6 +3,10 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Metadata Folder of Eclipse
+.metadata/
+.recommenders/
+
 # Package Files #
 #*.jar
 *.war
