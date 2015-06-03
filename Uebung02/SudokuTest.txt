@@ -1,0 +1,75 @@
+#Knoten
+knoten 0:0
+knoten 0:1
+knoten 0:2 4
+knoten 0:3
+knoten 1:0
+knoten 1:1 2
+knoten 1:2
+knoten 1:3
+knoten 2:0 2
+knoten 2:1
+knoten 2:2
+knoten 2:3
+knoten 3:0
+knoten 3:1 4
+knoten 3:2
+knoten 3:3 1
+
+# Kanten
+kante 0:0 0:1
+kante 0:0 0:2
+kante 0:0 0:3
+kante 0:0 1:0
+kante 0:0 1:1
+kante 0:0 2:0
+kante 0:0 3:0
+kante 0:1 0:2
+kante 0:1 0:3
+kante 0:1 1:0
+kante 0:1 1:1
+kante 0:1 2:1
+kante 0:1 3:1
+kante 0:2 0:3
+kante 0:2 1:2
+kante 0:2 1:3
+kante 0:2 2:2
+kante 0:2 3:2
+kante 0:3 1:2
+kante 0:3 1:3
+kante 0:3 2:3
+kante 0:3 3:3
+kante 1:0 1:1
+kante 1:0 1:2
+kante 1:0 1:3
+kante 1:0 2:0
+kante 1:0 3:0
+kante 1:1 1:2
+kante 1:1 1:3
+kante 1:1 2:1
+kante 1:1 3:1
+kante 1:2 1:3
+kante 1:2 2:2
+kante 1:2 3:2
+kante 1:3 2:3
+kante 1:3 3:3
+kante 2:0 2:1
+kante 2:0 2:2
+kante 2:0 2:3
+kante 2:0 3:0
+kante 2:0 3:1
+kante 2:1 2:2
+kante 2:1 2:3
+kante 2:1 3:0
+kante 2:1 3:1
+kante 2:2 2:3
+kante 2:2 3:2
+kante 2:2 3:3
+kante 2:3 3:2
+kante 2:3 3:3
+kante 3:0 3:1
+kante 3:0 3:2
+kante 3:0 3:3
+kante 3:1 3:2
+kante 3:1 3:3
+kante 3:2 3:3

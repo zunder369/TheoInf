@@ -1,0 +1,35 @@
+# Knoten
+knoten Deutschland 
+knoten Frankreich
+knoten Spanien
+knoten Portugal
+knoten Oesterreich
+knoten Schweiz
+knoten Polen
+knoten Belgien
+knoten Niederlande
+knoten GrossBritannien
+knoten Irland
+knoten Italien
+knoten Luxemburg
+
+# Kantendefinitionen 
+kante Deutschland Frankreich
+kante Deutschland Schweiz
+kante Deutschland Polen
+kante Deutschland Belgien
+kante Deutschland Niederlande
+kante Deutschland Oesterreich
+kante Deutschland Luxemburg
+kante Schweiz Italien
+kante Schweiz Frankreich
+kante Schweiz Oesterreich
+kante GrossBritannien Irland
+kante Oesterreich Italien
+kante Frankreich Belgien
+kante Frankreich Italien
+kante Frankreich Spanien
+kante Frankreich Luxemburg
+kante Belgien Luxemburg
+kante Belgien Niederlande
+kante Spanien Portugal

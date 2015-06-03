@@ -1,0 +1,79 @@
+# Personen
+knoten Christian
+knoten Dominik
+knoten Eduard
+knoten Fabian
+knoten Guenter
+knoten Johannes
+knoten Leonid
+knoten Marc
+knoten Patrick
+knoten Simon
+knoten Tobias
+# Laender 
+knoten BG
+knoten FI
+knoten FR
+knoten UK
+knoten PT
+knoten ES
+knoten CH
+knoten CZ
+knoten UA
+# NF-Ergaenzung
+knoten s
+knoten t
+# Verbindungen
+kante Christian BG 1 
+kante Christian UK 1
+kante Dominik FI 1
+kante Dominik PT 1
+kante Eduard BG 1
+kante Eduard FR 1
+kante Fabian FI 1
+kante Guenter FR 1
+kante Guenter UK 1
+kante Guenter ES 1
+kante Guenter CH 1
+kante Guenter UA 1
+kante Johannes FR 1
+kante Johannes ES 1
+kante Johannes CH 1
+kante Johannes CZ 1
+kante Johannes UA 1
+kante Leonid ES 1
+kante Leonid CH 1
+kante Leonid CZ 1
+kante Leonid UA 1
+kante Marc UK 1
+kante Marc PT 1
+kante Marc CH 1
+kante Marc CZ 1
+kante Marc UA 1
+kante Patrick BG 1
+kante Patrick FI 1
+kante Simon BG 1
+kante Simon PT 1
+kante Tobias FI 1
+# s->Person NF-Kanten
+kante s Christian 1
+kante s Dominik 1
+kante s Eduard 1
+kante s Fabian 1
+kante s Guenter 1
+kante s Johannes 1
+kante s Leonid 1
+kante s Marc 1
+kante s Patrick 1
+kante s Simon 1
+kante s Tobias 1
+# Land->t NF-Kanten
+kante BG t 1
+kante FI t 1
+kante FR t 1
+kante UK t 1
+kante PT t 1
+kante ES t 1
+kante CH t 1
+kante CZ t 1
+kante UA t 1

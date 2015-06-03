@@ -1,0 +1,54 @@
+# Personen
+knoten Christian
+knoten Dominik
+knoten Eduard
+knoten Fabian
+knoten Guenter
+knoten Johannes
+knoten Leonid
+knoten Marc
+knoten Patrick
+knoten Simon
+knoten Tobias
+# Laender 
+knoten BG
+knoten FI
+knoten FR
+knoten UK
+knoten PT
+knoten ES
+knoten CH
+knoten CZ
+knoten UA
+# Verbindungen
+kante Christian BG
+kante Christian UK
+kante Dominik FI
+kante Dominik PT
+kante Eduard BG
+kante Eduard FR
+kante Fabian FI
+kante Guenter FR
+kante Guenter UK
+kante Guenter ES
+kante Guenter CH
+kante Guenter UA
+kante Johannes FR
+kante Johannes ES
+kante Johannes CH
+kante Johannes CZ
+kante Johannes UA
+kante Leonid ES
+kante Leonid CH
+kante Leonid CZ
+kante Leonid UA
+kante Marc UK
+kante Marc PT
+kante Marc CH
+kante Marc CZ
+kante Marc UA
+kante Patrick BG
+kante Patrick FI
+kante Simon BG
+kante Simon PT
+kante Tobias FI

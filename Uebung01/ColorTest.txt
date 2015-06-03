@@ -1,0 +1,17 @@
+# 5 Knotendefinitionen, A bis E
+knoten A #FF00FF
+knoten B #000000
+knoten C #00FF00
+knoten D #FF0000
+knoten E #0000FF
+
+# Kantendefinitionen 
+kante A B
+kante A C
+kante A D
+kante B C
+kante B D
+kante C E
+kante C D
+kante D E
+
