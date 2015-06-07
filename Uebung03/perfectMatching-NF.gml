@@ -1,951 +1,423 @@
-Creator	"yFiles"
-Version	"2.11"
+Creator "JGraphT GML Exporter"
+Version 1
 graph
 [
-	hierarchic	1
-	label	""
-	directed	1
+	label ""
+	directed 0
 	node
 	[
-		id	0
-		label	"Christian"
-		graphics
-		[
-			x	144.0909090909091
-			y	-330.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Christian"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 1
+		label "Christian"
 	]
 	node
 	[
-		id	1
-		label	"Dominik"
-		graphics
-		[
-			x	144.0909090909091
-			y	-210.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Dominik"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 2
+		label "Dominik"
 	]
 	node
 	[
-		id	2
-		label	"Eduard"
-		graphics
-		[
-			x	144.0909090909091
-			y	-390.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Eduard"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 3
+		label "Eduard"
 	]
 	node
 	[
-		id	3
-		label	"Fabian"
-		graphics
-		[
-			x	144.0909090909091
-			y	-90.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Fabian"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 4
+		label "Fabian"
 	]
 	node
 	[
-		id	4
-		label	"Guenter"
-		graphics
-		[
-			x	144.0909090909091
-			y	-510.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Guenter"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 5
+		label "Guenter"
 	]
 	node
 	[
-		id	5
-		label	"Johannes"
-		graphics
-		[
-			x	144.0909090909091
-			y	-577.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Johannes"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 6
+		label "Johannes"
 	]
 	node
 	[
-		id	6
-		label	"Leonid"
-		graphics
-		[
-			x	144.0909090909091
-			y	-640.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Leonid"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 7
+		label "Leonid"
 	]
 	node
 	[
-		id	7
-		label	"Marc"
-		graphics
-		[
-			x	144.0909090909091
-			y	-450.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Marc"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 8
+		label "Marc"
 	]
 	node
 	[
-		id	8
-		label	"Patrick"
-		graphics
-		[
-			x	144.0909090909091
-			y	-150.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Patrick"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 9
+		label "Patrick"
 	]
 	node
 	[
-		id	9
-		label	"Simon"
-		graphics
-		[
-			x	144.0909090909091
-			y	-270.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Simon"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 10
+		label "Simon"
 	]
 	node
 	[
-		id	10
-		label	"Tobias"
-		graphics
-		[
-			x	144.0909090909091
-			y	-30.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Tobias"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 11
+		label "Tobias"
 	]
 	node
 	[
-		id	11
-		label	"BG"
-		graphics
-		[
-			x	301.9508918020156
-			y	-217.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"BG"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 12
+		label "BG"
 	]
 	node
 	[
-		id	12
-		label	"FI"
-		graphics
-		[
-			x	301.9508918020156
-			y	-157.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"FI"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 13
+		label "FI"
 	]
 	node
 	[
-		id	13
-		label	"FR"
-		graphics
-		[
-			x	301.9508918020156
-			y	-397.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"FR"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 14
+		label "FR"
 	]
 	node
 	[
-		id	14
-		label	"UK"
-		graphics
-		[
-			x	301.9508918020156
-			y	-337.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"UK"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 15
+		label "UK"
 	]
 	node
 	[
-		id	15
-		label	"PT"
-		graphics
-		[
-			x	301.9508918020156
-			y	-277.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"PT"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 16
+		label "PT"
 	]
 	node
 	[
-		id	16
-		label	"ES"
-		graphics
-		[
-			x	301.9508918020156
-			y	-637.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"ES"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 17
+		label "ES"
 	]
 	node
 	[
-		id	17
-		label	"CH"
-		graphics
-		[
-			x	301.9508918020156
-			y	-517.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"CH"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 18
+		label "CH"
 	]
 	node
 	[
-		id	18
-		label	"CZ"
-		graphics
-		[
-			x	301.9508918020156
-			y	-577.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"CZ"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 19
+		label "CZ"
 	]
 	node
 	[
-		id	19
-		label	"UA"
-		graphics
-		[
-			x	301.9508918020156
-			y	-457.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"UA"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 20
+		label "UA"
 	]
 	node
 	[
-		id	20
-		label	"s"
-		graphics
-		[
-			x	15.0
-			y	-330.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"s"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 21
+		label "s"
 	]
 	node
 	[
-		id	21
-		label	"t"
-		graphics
-		[
-			x	481.6341974037904
-			y	-337.5
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"t"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
+		id 22
+		label "t"
 	]
 	edge
 	[
-		source	0
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 1
+		source 1
+		target 12
 	]
 	edge
 	[
-		source	0
-		target	14
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 2
+		source 1
+		target 15
 	]
 	edge
 	[
-		source	1
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 3
+		source 2
+		target 13
 	]
 	edge
 	[
-		source	1
-		target	15
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 4
+		source 2
+		target 16
 	]
 	edge
 	[
-		source	2
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 5
+		source 3
+		target 12
 	]
 	edge
 	[
-		source	2
-		target	13
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 6
+		source 3
+		target 14
 	]
 	edge
 	[
-		source	3
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 7
+		source 4
+		target 13
 	]
 	edge
 	[
-		source	4
-		target	13
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 8
+		source 5
+		target 14
 	]
 	edge
 	[
-		source	4
-		target	14
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 9
+		source 5
+		target 15
 	]
 	edge
 	[
-		source	4
-		target	16
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 10
+		source 5
+		target 17
 	]
 	edge
 	[
-		source	4
-		target	17
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 11
+		source 5
+		target 18
 	]
 	edge
 	[
-		source	4
-		target	19
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 12
+		source 5
+		target 20
 	]
 	edge
 	[
-		source	5
-		target	13
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 13
+		source 6
+		target 14
 	]
 	edge
 	[
-		source	5
-		target	16
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 14
+		source 6
+		target 17
 	]
 	edge
 	[
-		source	5
-		target	17
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 15
+		source 6
+		target 18
 	]
 	edge
 	[
-		source	5
-		target	18
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 16
+		source 6
+		target 19
 	]
 	edge
 	[
-		source	5
-		target	19
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 17
+		source 6
+		target 20
 	]
 	edge
 	[
-		source	6
-		target	16
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 18
+		source 7
+		target 17
 	]
 	edge
 	[
-		source	6
-		target	17
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 19
+		source 7
+		target 18
 	]
 	edge
 	[
-		source	6
-		target	18
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 20
+		source 7
+		target 19
 	]
 	edge
 	[
-		source	6
-		target	19
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 21
+		source 7
+		target 20
 	]
 	edge
 	[
-		source	7
-		target	14
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 22
+		source 8
+		target 15
 	]
 	edge
 	[
-		source	7
-		target	15
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 23
+		source 8
+		target 16
 	]
 	edge
 	[
-		source	7
-		target	17
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 24
+		source 8
+		target 18
 	]
 	edge
 	[
-		source	7
-		target	18
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 25
+		source 8
+		target 19
 	]
 	edge
 	[
-		source	7
-		target	19
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 26
+		source 8
+		target 20
 	]
 	edge
 	[
-		source	8
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 27
+		source 9
+		target 12
 	]
 	edge
 	[
-		source	8
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 28
+		source 9
+		target 13
 	]
 	edge
 	[
-		source	9
-		target	11
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 29
+		source 10
+		target 12
 	]
 	edge
 	[
-		source	9
-		target	15
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 30
+		source 10
+		target 16
 	]
 	edge
 	[
-		source	10
-		target	12
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 31
+		source 11
+		target 13
 	]
 	edge
 	[
-		source	20
-		target	0
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 32
+		source 21
+		target 1
 	]
 	edge
 	[
-		source	20
-		target	1
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 33
+		source 21
+		target 2
 	]
 	edge
 	[
-		source	20
-		target	2
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 34
+		source 21
+		target 3
 	]
 	edge
 	[
-		source	20
-		target	3
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 35
+		source 21
+		target 4
 	]
 	edge
 	[
-		source	20
-		target	4
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 36
+		source 21
+		target 5
 	]
 	edge
 	[
-		source	20
-		target	5
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 37
+		source 21
+		target 6
 	]
 	edge
 	[
-		source	20
-		target	6
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 38
+		source 21
+		target 7
 	]
 	edge
 	[
-		source	20
-		target	7
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 39
+		source 21
+		target 8
 	]
 	edge
 	[
-		source	20
-		target	8
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 40
+		source 21
+		target 9
 	]
 	edge
 	[
-		source	20
-		target	9
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 41
+		source 21
+		target 10
 	]
 	edge
 	[
-		source	20
-		target	10
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 42
+		source 21
+		target 11
 	]
 	edge
 	[
-		source	11
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 43
+		source 12
+		target 22
 	]
 	edge
 	[
-		source	12
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 44
+		source 13
+		target 22
 	]
 	edge
 	[
-		source	13
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 45
+		source 14
+		target 22
 	]
 	edge
 	[
-		source	14
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 46
+		source 15
+		target 22
 	]
 	edge
 	[
-		source	15
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 47
+		source 16
+		target 22
 	]
 	edge
 	[
-		source	16
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 48
+		source 17
+		target 22
 	]
 	edge
 	[
-		source	17
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 49
+		source 18
+		target 22
 	]
 	edge
 	[
-		source	18
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 50
+		source 19
+		target 22
 	]
 	edge
 	[
-		source	19
-		target	21
-		graphics
-		[
-			fill	"#000000"
-		]
+		id 51
+		source 20
+		target 22
 	]
 ]

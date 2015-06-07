@@ -1,6 +1,6 @@
 package GraphReader;
 
-public class Vertex {
+public class Vertex implements Comparable<Vertex> {
 
 	protected String name = null;
 	protected String data = null;
@@ -35,6 +35,15 @@ public class Vertex {
 	
 	public String toString(){
 		return data == null ? "["+name+"]" : "["+name+ ", "+data+"]";
+	}
+
+	@Override
+	public int compareTo(Vertex other) {
+		int c =  this.name.compareTo(other.name);
+		if(c == 0 && data != null && other.data != null){
+			return this.data.compareTo(other.data);
+		}
+		return c;
 	}
 	
 }

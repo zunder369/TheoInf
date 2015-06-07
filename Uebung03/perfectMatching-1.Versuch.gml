@@ -8,55 +8,11 @@ graph
 	node
 	[
 		id	0
-		label	"Christian"
-		graphics
-		[
-			x	431.3330078125
-			y	140.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Christian"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	1
-		label	"UK"
-		graphics
-		[
-			x	521.700970722323
-			y	140.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"UK"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	2
 		label	"Simon"
 		graphics
 		[
-			x	431.3330078125
-			y	380.0
+			x	-58.3573524148602
+			y	-11.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -73,12 +29,12 @@ graph
 	]
 	node
 	[
-		id	3
-		label	"PT"
+		id	1
+		label	"BG"
 		graphics
 		[
-			x	516.7536481219169
-			y	380.0
+			x	58.746010600549084
+			y	7.420577772324947
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -87,7 +43,51 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"PT"
+			text	"BG"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	2
+		label	"Guenter"
+		graphics
+		[
+			x	-60.00943704922429
+			y	-131.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Guenter"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	3
+		label	"CH"
+		graphics
+		[
+			x	28.662826821864087
+			y	-131.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"CH"
 			fontSize	12
 			fontName	"Dialog"
 			model	"null"
@@ -99,8 +99,8 @@ graph
 		label	"Johannes"
 		graphics
 		[
-			x	431.3330078125
-			y	-100.0
+			x	-60.00943704922429
+			y	-191.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -118,11 +118,11 @@ graph
 	node
 	[
 		id	5
-		label	"CH"
+		label	"CZ"
 		graphics
 		[
-			x	524.3109715966336
-			y	-100.0
+			x	32.96852673490932
+			y	-191.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -131,7 +131,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"CH"
+			text	"CZ"
 			fontSize	12
 			fontName	"Dialog"
 			model	"null"
@@ -143,8 +143,8 @@ graph
 		label	"Leonid"
 		graphics
 		[
-			x	431.3330078125
-			y	260.0
+			x	-58.3573524148602
+			y	289.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -162,11 +162,11 @@ graph
 	node
 	[
 		id	7
-		label	"CZ"
+		label	"ES"
 		graphics
 		[
-			x	517.5462112480964
-			y	260.0
+			x	27.855851020736225
+			y	289.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -175,7 +175,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"CZ"
+			text	"ES"
 			fontSize	12
 			fontName	"Dialog"
 			model	"null"
@@ -187,8 +187,8 @@ graph
 		label	"Dominik"
 		graphics
 		[
-			x	431.3330078125
-			y	-40.0
+			x	-58.3573524148602
+			y	229.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -209,8 +209,8 @@ graph
 		label	"FI"
 		graphics
 		[
-			x	520.0052716835884
-			y	-40.0
+			x	30.314911456228174
+			y	229.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -228,143 +228,11 @@ graph
 	node
 	[
 		id	10
-		label	"Marc"
-		graphics
-		[
-			x	431.3330078125
-			y	80.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Marc"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	11
-		label	"UA"
-		graphics
-		[
-			x	513.7594146836929
-			y	80.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"UA"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	12
-		label	"Patrick"
-		graphics
-		[
-			x	431.3330078125
-			y	20.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Patrick"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	13
-		label	"BG"
-		graphics
-		[
-			x	517.5462112480964
-			y	20.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"BG"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	14
-		label	"Guenter"
-		graphics
-		[
-			x	431.3330078125
-			y	200.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Guenter"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	15
-		label	"ES"
-		graphics
-		[
-			x	520.0052716835884
-			y	200.0
-			w	30.0
-			h	30.0
-			type	"ellipse"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"ES"
-			fontSize	12
-			fontName	"Dialog"
-			model	"null"
-		]
-	]
-	node
-	[
-		id	16
 		label	"Eduard"
 		graphics
 		[
-			x	431.3330078125
-			y	320.0
+			x	-58.3573524148602
+			y	-71.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -381,12 +249,12 @@ graph
 	]
 	node
 	[
-		id	17
+		id	11
 		label	"FR"
 		graphics
 		[
-			x	518.3531870492243
-			y	320.0
+			x	28.662826821864087
+			y	-71.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -403,12 +271,122 @@ graph
 	]
 	node
 	[
-		id	18
+		id	12
+		label	"Marc"
+		graphics
+		[
+			x	-58.3573524148602
+			y	109.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Marc"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	13
+		label	"PT"
+		graphics
+		[
+			x	24.06905445633265
+			y	109.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"PT"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	14
+		label	"Christian"
+		graphics
+		[
+			x	-58.3573524148602
+			y	169.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Christian"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	15
+		label	"UK"
+		graphics
+		[
+			x	32.01061049496275
+			y	169.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"UK"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	16
+		label	"Patrick"
+		graphics
+		[
+			x	-58.3573524148602
+			y	49.0
+			w	30.0
+			h	30.0
+			type	"ellipse"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Patrick"
+			fontSize	12
+			fontName	"Dialog"
+			model	"null"
+		]
+	]
+	node
+	[
+		id	17
 		label	"Fabian"
 		graphics
 		[
-			x	-83.98541329011346
-			y	500.0
+			x	-479.6374932468936
+			y	474.4205777723249
 			w	30.0
 			h	30.0
 			type	"diamond"
@@ -425,320 +403,12 @@ graph
 	]
 	node
 	[
-		id	19
-		label	"Tobias"
-		graphics
-		[
-			x	-83.98541329011346
-			y	440.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Tobias"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	20
-		label	"PT"
-		graphics
-		[
-			x	233.6645056726095
-			y	-100.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"PT"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	21
-		label	"Simon"
-		graphics
-		[
-			x	-83.98541329011346
-			y	-40.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Simon"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	22
-		label	"FR"
-		graphics
-		[
-			x	233.6645056726095
-			y	380.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"FR"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	23
-		label	"Eduard"
-		graphics
-		[
-			x	-83.98541329011346
-			y	260.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Eduard"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	24
-		label	"CZ"
-		graphics
-		[
-			x	233.6645056726095
-			y	200.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"CZ"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	25
-		label	"Leonid"
-		graphics
-		[
-			x	-83.98541329011346
-			y	80.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Leonid"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	26
-		label	"ES"
-		graphics
-		[
-			x	233.6645056726095
-			y	260.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"ES"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	27
-		label	"Guenter"
-		graphics
-		[
-			x	-83.98541329011346
-			y	140.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Guenter"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	28
-		label	"UK"
-		graphics
-		[
-			x	233.6645056726095
-			y	320.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"UK"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	29
-		label	"Christian"
-		graphics
-		[
-			x	-83.98541329011346
-			y	20.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Christian"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	30
-		label	"UA"
-		graphics
-		[
-			x	233.6645056726095
-			y	80.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"UA"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	31
-		label	"Marc"
-		graphics
-		[
-			x	-83.98541329011346
-			y	-100.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"Marc"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	32
-		label	"BG"
-		graphics
-		[
-			x	233.6645056726095
-			y	-40.0
-			w	30.0
-			h	30.0
-			type	"diamond"
-			fill	"#FFCC00"
-			outline	"#000000"
-		]
-		LabelGraphics
-		[
-			text	"BG"
-			fontSize	12
-			fontName	"Dialog"
-			anchor	"c"
-		]
-	]
-	node
-	[
-		id	33
+		id	18
 		label	"Patrick"
 		graphics
 		[
-			x	-83.98541329011346
-			y	380.0
+			x	-479.6374932468936
+			y	354.4205777723249
 			w	30.0
 			h	30.0
 			type	"diamond"
@@ -755,12 +425,144 @@ graph
 	]
 	node
 	[
-		id	34
+		id	19
+		label	"Simon"
+		graphics
+		[
+			x	-479.6374932468936
+			y	-65.57942222767508
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Simon"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	20
+		label	"BG"
+		graphics
+		[
+			x	-161.9875742841707
+			y	-65.57942222767508
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"BG"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	21
+		label	"UA"
+		graphics
+		[
+			x	-161.9875742841707
+			y	54.42057777232492
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"UA"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	22
+		label	"ES"
+		graphics
+		[
+			x	-161.9875742841707
+			y	234.42057777232492
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"ES"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	23
+		label	"Leonid"
+		graphics
+		[
+			x	-479.6374932468936
+			y	54.42057777232492
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Leonid"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	24
+		label	"Tobias"
+		graphics
+		[
+			x	-479.6374932468936
+			y	414.4205777723249
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Tobias"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	25
 		label	"FI"
 		graphics
 		[
-			x	233.6645056726095
-			y	20.0
+			x	-161.9875742841707
+			y	-5.579422227675082
 			w	30.0
 			h	30.0
 			type	"diamond"
@@ -777,12 +579,12 @@ graph
 	]
 	node
 	[
-		id	35
+		id	26
 		label	"Dominik"
 		graphics
 		[
-			x	-83.98541329011346
-			y	320.0
+			x	-479.6374932468936
+			y	294.4205777723249
 			w	30.0
 			h	30.0
 			type	"diamond"
@@ -799,12 +601,188 @@ graph
 	]
 	node
 	[
-		id	36
+		id	27
+		label	"UK"
+		graphics
+		[
+			x	-161.9875742841707
+			y	294.4205777723249
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"UK"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	28
+		label	"Christian"
+		graphics
+		[
+			x	-479.6374932468936
+			y	-5.579422227675082
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Christian"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	29
+		label	"PT"
+		graphics
+		[
+			x	-161.9875742841707
+			y	-125.57942222767508
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"PT"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	30
+		label	"Marc"
+		graphics
+		[
+			x	-479.6374932468936
+			y	-125.57942222767508
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Marc"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	31
+		label	"FR"
+		graphics
+		[
+			x	-161.9875742841707
+			y	354.4205777723249
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"FR"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	32
+		label	"Eduard"
+		graphics
+		[
+			x	-479.6374932468936
+			y	234.42057777232492
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Eduard"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	33
+		label	"CZ"
+		graphics
+		[
+			x	-161.9875742841707
+			y	174.42057777232492
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"CZ"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	34
+		label	"Johannes"
+		graphics
+		[
+			x	-479.6374932468936
+			y	174.42057777232492
+			w	30.0
+			h	30.0
+			type	"diamond"
+			fill	"#FFCC00"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"Johannes"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
+		]
+	]
+	node
+	[
+		id	35
 		label	"CH"
 		graphics
 		[
-			x	233.6645056726095
-			y	140.0
+			x	-161.9875742841707
+			y	114.42057777232492
 			w	30.0
 			h	30.0
 			type	"diamond"
@@ -821,12 +799,12 @@ graph
 	]
 	node
 	[
-		id	37
-		label	"Johannes"
+		id	36
+		label	"Guenter"
 		graphics
 		[
-			x	-83.98541329011346
-			y	200.0
+			x	-479.6374932468936
+			y	114.42057777232492
 			w	30.0
 			h	30.0
 			type	"diamond"
@@ -835,7 +813,7 @@ graph
 		]
 		LabelGraphics
 		[
-			text	"Johannes"
+			text	"Guenter"
 			fontSize	12
 			fontName	"Dialog"
 			anchor	"c"
@@ -916,7 +894,7 @@ graph
 	edge
 	[
 		source	16
-		target	17
+		target	1
 		graphics
 		[
 			fill	"#000000"
@@ -924,34 +902,7 @@ graph
 	]
 	edge
 	[
-		source	29
-		target	32
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	29
-		target	28
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	35
-		target	34
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	35
+		source	28
 		target	20
 		graphics
 		[
@@ -960,8 +911,143 @@ graph
 	]
 	edge
 	[
-		source	23
-		target	32
+		source	28
+		target	27
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	26
+		target	25
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	26
+		target	29
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	32
+		target	20
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	32
+		target	31
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	17
+		target	25
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	36
+		target	31
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	36
+		target	27
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	36
+		target	22
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	36
+		target	35
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	36
+		target	21
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	34
+		target	31
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	34
+		target	22
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	34
+		target	35
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	34
+		target	33
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	34
+		target	21
 		graphics
 		[
 			fill	"#000000"
@@ -971,6 +1057,78 @@ graph
 	[
 		source	23
 		target	22
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	23
+		target	35
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	23
+		target	33
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	23
+		target	21
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	30
+		target	27
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	30
+		target	29
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	30
+		target	35
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	30
+		target	33
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	30
+		target	21
 		graphics
 		[
 			fill	"#000000"
@@ -979,150 +1137,6 @@ graph
 	edge
 	[
 		source	18
-		target	34
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	27
-		target	22
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	27
-		target	28
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	27
-		target	26
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	27
-		target	36
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	27
-		target	30
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	37
-		target	22
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	37
-		target	26
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	37
-		target	36
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	37
-		target	24
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	37
-		target	30
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	25
-		target	26
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	25
-		target	36
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	25
-		target	24
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	25
-		target	30
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	31
-		target	28
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	31
 		target	20
 		graphics
 		[
@@ -1131,8 +1145,8 @@ graph
 	]
 	edge
 	[
-		source	31
-		target	36
+		source	18
+		target	25
 		graphics
 		[
 			fill	"#000000"
@@ -1140,52 +1154,7 @@ graph
 	]
 	edge
 	[
-		source	31
-		target	24
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	31
-		target	30
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	33
-		target	32
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	33
-		target	34
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	21
-		target	32
-		graphics
-		[
-			fill	"#000000"
-		]
-	]
-	edge
-	[
-		source	21
+		source	19
 		target	20
 		graphics
 		[
@@ -1195,7 +1164,16 @@ graph
 	edge
 	[
 		source	19
-		target	34
+		target	29
+		graphics
+		[
+			fill	"#000000"
+		]
+	]
+	edge
+	[
+		source	24
+		target	25
 		graphics
 		[
 			fill	"#000000"

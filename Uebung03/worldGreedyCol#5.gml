@@ -1,34 +1,74 @@
-Creator "JGraphT GML Exporter"
-Version 1
+Creator	"yFiles"
+Version	"2.11"
 graph
 [
-	label ""
-	directed 0
+	hierarchic	1
+	label	""
+	directed	1
 	node
 	[
-		id 1
-		label "DE"
+		id	0
+		label	"DE"
 		graphics
 		[
-			fill "#FFFFFF"
+			x	30.0
+			y	30.0
+			w	30.0
+			h	30.0
+			type	"rectangle"
+			fill	"#FFFFFF"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"DE"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
 		]
 	]
 	node
 	[
-		id 2
-		label "MZ"
+		id	1
+		label	"MZ"
 		graphics
 		[
-			fill "#FFFFFF"
+			x	136.0
+			y	30.0
+			w	30.0
+			h	30.0
+			type	"rectangle"
+			fill	"#FFFFFF"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"MZ"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
 		]
 	]
 	node
 	[
-		id 3
-		label "RU"
+		id	2
+		label	"RU"
 		graphics
 		[
-			fill "#FFFFFF"
+			x	30.0
+			y	136.0
+			w	30.0
+			h	30.0
+			type	"rectangle"
+			fill	"#FFFFFF"
+			outline	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"RU"
+			fontSize	12
+			fontName	"Dialog"
+			anchor	"c"
 		]
 	]
 ]
