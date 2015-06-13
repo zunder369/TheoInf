@@ -6,6 +6,7 @@
 # Metadata Folder of Eclipse
 .metadata/
 .recommenders/
+.settings/
 
 # Package Files #
 #*.jar

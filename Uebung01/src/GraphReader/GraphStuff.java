@@ -1,14 +1,15 @@
 package GraphReader;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.TreeSet;
 
 import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.ListenableUndirectedWeightedGraph;
+import org.jgrapht.graph.SimpleWeightedGraph;
 
 public class GraphStuff {
 
@@ -28,9 +29,7 @@ public class GraphStuff {
 			Vertex t = g.getEdgeTarget(edge);
 			c.addEdge(map.get(s.getName()), map.get(t.getName()));
 		}
-		
 		return c;
-		
 	}
 	
 	public static Set<Vertex> getNeighbors(Graph<Vertex, DefaultWeightedEdge> g, Vertex v) {
@@ -47,7 +46,6 @@ public class GraphStuff {
 		return set;		
 	}
 	
-	
 	public static int colorsInGraph(Graph<Vertex, ?> g){
 		
 		Set<Vertex> set = g.vertexSet();
@@ -61,9 +59,31 @@ public class GraphStuff {
 		for (int i = 0; i < a.length; i++) {
 			if(a[i] != 0)
 				count ++;
+		}	
+		return count;
+	}
+	
+	public static Graph<Vertex, DefaultWeightedEdge> invertedGraph(Graph<Vertex, DefaultWeightedEdge> g){
+		
+		Graph<Vertex, DefaultWeightedEdge> newGraph = new SimpleWeightedGraph<Vertex, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+		
+		for(Vertex v : g.vertexSet()){
+			newGraph.addVertex(v);
 		}
 		
-		return count;
-		
+		Set<Vertex> neighbors;
+		Set<Vertex> invNeighbors;
+		for (Vertex v : g.vertexSet()) {
+			neighbors = GraphStuff.getNeighbors(g, v);
+			invNeighbors = new TreeSet<Vertex>(g.vertexSet());
+			invNeighbors.removeAll(neighbors);
+			invNeighbors.remove(v);
+			for(Vertex o : invNeighbors){
+				newGraph.addEdge(v, o);
+			}
+		}
+		return newGraph;
 	}
+
+
 }

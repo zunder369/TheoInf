@@ -14,6 +14,7 @@ public class FarthestInsertion implements SelectionHeuristic {
 		Set<Vertex> vertices = fullGraph.vertexSet();
 		double maxDist = 0;
 		Vertex maxDistV = null;
+		DefaultWeightedEdge eMax = null;
 		
 		for(Vertex v: vertices){
 			if(usedVertices.size() == 0) // 1. Knoten vom TSP
@@ -30,7 +31,22 @@ public class FarthestInsertion implements SelectionHeuristic {
 				}
 			}
 		}
+		System.out.println("Chosse: "+maxDistV+ " from Edge: "+eMax+" width dist: "+fullGraph.getEdgeWeight(eMax));
 		return maxDistV;
 	}
 
+	@Override
+	public DefaultWeightedEdge getFirstEdge(Graph<Vertex, DefaultWeightedEdge> fullGraph, Vertex usedVertice) {
+		Set<DefaultWeightedEdge> neighbors = fullGraph.edgesOf(usedVertice);
+		// suche Maximum
+		DefaultWeightedEdge maxEdge = null;
+		double maxWeight = Double.NEGATIVE_INFINITY;
+		for (DefaultWeightedEdge e : neighbors) {
+			if(fullGraph.getEdgeWeight(e) > maxWeight){
+				maxEdge = e;
+				maxWeight = fullGraph.getEdgeWeight(e);
+			}
+		}
+		return maxEdge;
+	}
 }

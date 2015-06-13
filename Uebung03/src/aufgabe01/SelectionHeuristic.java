@@ -11,4 +11,5 @@ public interface SelectionHeuristic {
 
 	public Vertex nextVertex(Graph<Vertex, DefaultWeightedEdge> fullGraph, Set<Vertex> usedVertices);
 	
+	public DefaultWeightedEdge getFirstEdge(Graph<Vertex, DefaultWeightedEdge> fullGraph, Vertex usedVertice);
 }

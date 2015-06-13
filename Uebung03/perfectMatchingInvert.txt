@@ -11,15 +11,15 @@ knoten Patrick
 knoten Simon
 knoten Tobias
 # Laender 
-knoten BG 
-knoten FI 
-knoten FR  
-knoten UK 
-knoten PT 
-knoten ES 
-knoten CH 
-knoten CZ 
-knoten UA 
+knoten BG
+knoten FI
+knoten FR
+knoten UK
+knoten PT
+knoten ES
+knoten CH
+knoten CZ
+knoten UA
 # Verbindungen
 kante Christian BG
 kante Christian UK
