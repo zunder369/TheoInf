@@ -26,11 +26,6 @@ public class MaximumMatching {
 	// [1] https://www.tu-ilmenau.de/fileadmin/public/iti/Lehre/EAII/WS11/Kapitel2-Matchings.pdf
 	// Gale Shapely Heiratsantrags-Algorithmus
 	
-	/**
-	 * TODO laeuft nocht nicht...
-	 * TODO
-	 * TODO
-	 */
 	
 	protected Set<Vertex> W; // Frauen - Studenten
 	protected Set<Vertex> M; // Maenner - Laender
@@ -87,9 +82,7 @@ public class MaximumMatching {
 		System.out.println("INITIAL");
 		for(Vertex m : unmatchedM){
 			neigh = new ArrayList<Vertex>(GraphStuff.getNeighbors(g, m));
-//	System.out.println("neigh of: "+m+" ("+neigh.size()+") "+Arrays.toString(neigh.toArray(new Vertex[neigh.size()])));
 			neigh.removeAll(matched);
-//			System.out.println("without used: "+m+" ("+neigh.size()+") "+Arrays.toString(neigh.toArray(new Vertex[neigh.size()])));
 			w = null;
 			if(neigh.size() > 0 ) {
 				w = neigh.get(0);
@@ -113,12 +106,8 @@ public class MaximumMatching {
 			if(unmatchedM.size() == 0){
 				return maxMatch; // alle M aufgebraucht
 			}
-//	System.out.println("i: "+i);
-//	for(int x = 0; x < maxMatch.size(); x++){
-//		System.out.print(maxMatch.get(x));
-//	}
-//	System.out.println();		
-			int rand = (int)(Math.random()*maxMatch.size());
+			// RANDOMISIERUNG
+			int rand = (int)(Math.random()*(maxMatch.size()));
 			// schaue bei rand ob es alternativen zum momentanen Match gibt
 			curEdge = maxMatch.get(rand);
 			v = g.getEdgeTarget(curEdge); // konten von rechter Seite
@@ -134,8 +123,18 @@ public class MaximumMatching {
 			matched.remove(v);
 			unmatchedW.add(o);
 			unmatchedM.add(v);
+			
+			// matche neu
+			DefaultWeightedEdge mw = matchMW(v, o);
+			DefaultWeightedEdge wm = matchWM(o, v);
+			
+			if(mw != null)
+				maxMatch.add(mw);
+			if(wm != null)
+				maxMatch.add(wm);
+			
 			// schaue ob mehr Kanten im neuen Match als vorher
-			System.out.println("size: "+maxMatch.size());
+//			System.out.println("size: "+maxMatch.size());
 			if(maxFoundMatch.size() < maxMatch.size()){
 //				System.out.println("new maximum: "+maxMatch.size()+", old: "+maxFoundMatch.size());
 				copy(maxMatch, maxFoundMatch);
@@ -146,7 +145,6 @@ public class MaximumMatching {
 	
 	/**
 	 * Ordnet Knoten einem freien Knoten einer Frau zu
-	 * @param other
 	 */
 	private DefaultWeightedEdge matchMW(Vertex m, Vertex not) {
 		// get neighbors of v
@@ -161,7 +159,6 @@ public class MaximumMatching {
 				unmatchedW.remove(w);
 				unmatchedM.remove(m);
 				e = g.getEdge(w, m);
-				maxMatch.add(e);
 				return e;
 			}
 		}
@@ -186,7 +183,7 @@ public class MaximumMatching {
 				unmatchedM.remove(m);
 				unmatchedW.remove(w);
 				e = g.getEdge(w, m);
-				maxMatch.add(e);
+//				maxMatch.add(e);
 				return e;
 			}
 		}
@@ -199,8 +196,8 @@ public class MaximumMatching {
 			to.add(e);
 		}
 	}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		GraphReader r = new GraphReader();
 		UndirectedGraph<Vertex, DefaultWeightedEdge> g = r.buildGraph("perfectMatching.txt");
 		Set<Vertex> laender = new TreeSet<Vertex>();
@@ -214,6 +211,8 @@ public class MaximumMatching {
 		MaximumMatching m = new MaximumMatching(g, laender, jungen);
 
 		Graph match = m.getMatchedGraph();
+		
+		System.out.println("Match size (number of Edges): "+match.edgeSet().size());
 		
 		try{
 			MyGMLExporter<Vertex, DefaultWeightedEdge> gmlExporter = new MyGMLExporter<Vertex, DefaultWeightedEdge>();

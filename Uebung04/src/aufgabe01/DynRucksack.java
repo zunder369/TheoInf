@@ -75,15 +75,14 @@ public class DynRucksack {
 			if(alpha-curVal < 0) return 0;
 			int a = optTable[alpha-curVal][j-1]+curVol;
 			int b = optTable[alpha][j-1];
-			System.out.println("a: "+a+" , b: "+b);
+			System.out.println("a (Tabelle["+alpha+"-"+curVal+"]["+(j-1)+"]:"+optTable[alpha-curVal][j-1]+"+"+curVol+"): "+a+" , b(Tabelle["+alpha+"]["+(j-1)+"]): "+b);
 			int ret = Math.min(a,// F_{j-1}(alpha-p_j)+vol(j)	
 							   b);//,F_{j-1}(alpha)
 			// zahl eintragen
-			optTable[alpha][j] = ret > unendlich ? ret - unendlich : ret;
-			// name eintragen
-			nameTable[alpha][j] = (a < b) ? //name aus Zeile drüber + name von j  
-								(nameTable[alpha-curVal][j-1]+" "+items.get(j).getName()).replace("null", "")
-							  : nameTable [alpha][j-1];
+//			ret = ret >= unendlich ? Math.max(a, b) - unendlich : ret;
+//			System.out.println("-> ret: "+ret);
+			System.out.println("Tabelle["+alpha+"]["+j+"] = "+ret);
+			optTable[alpha][j] = ret;
 			return ret;
 		}
 	}
@@ -102,8 +101,9 @@ public class DynRucksack {
 		}while( ! (maxCapacity < opt));
 		System.out.println("ergebnis:");
 		System.out.println(Arrays.toString(optTable[alpha-1]));
-		System.out.println(Arrays.toString(nameTable[alpha-1]));
 		return alpha-1;
+		
+		// rückwärts durchlaufen und den value des letzten Elements zeilen nach oben und schauen ob gewicht des dortigen Elements stimmt
 	}
 	
 	
@@ -111,6 +111,7 @@ public class DynRucksack {
 		DynRucksack dyn = new DynRucksack();
 		
 		System.out.println(dyn.algo(65));
+		
 		
 	}
 	

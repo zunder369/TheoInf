@@ -33,8 +33,8 @@ graph
 		label	"AE"
 		graphics
 		[
-			x	1603.0
-			y	1499.0
+			x	1428.0
+			y	1283.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -55,8 +55,8 @@ graph
 		label	"AF"
 		graphics
 		[
-			x	708.0
-			y	1458.0
+			x	864.0
+			y	1259.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -143,8 +143,8 @@ graph
 		label	"AM"
 		graphics
 		[
-			x	777.0
-			y	1359.0
+			x	933.0
+			y	1160.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -165,8 +165,8 @@ graph
 		label	"AO"
 		graphics
 		[
-			x	2396.0
-			y	658.0
+			x	2074.5
+			y	691.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -341,8 +341,8 @@ graph
 		label	"AZ"
 		graphics
 		[
-			x	737.0
-			y	1333.0
+			x	893.0
+			y	1134.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -407,8 +407,8 @@ graph
 		label	"BD"
 		graphics
 		[
-			x	619.0
-			y	1594.0
+			x	775.0
+			y	1395.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -517,8 +517,8 @@ graph
 		label	"BI"
 		graphics
 		[
-			x	2343.0
-			y	543.0
+			x	2021.4999999999998
+			y	576.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -605,8 +605,8 @@ graph
 		label	"BN"
 		graphics
 		[
-			x	526.0
-			y	1782.0955239408866
+			x	682.0
+			y	1583.0955239408866
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -715,8 +715,8 @@ graph
 		label	"BT"
 		graphics
 		[
-			x	556.0
-			y	1473.0
+			x	712.0
+			y	1274.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -759,8 +759,8 @@ graph
 		label	"BW"
 		graphics
 		[
-			x	2494.0
-			y	707.0
+			x	2172.5
+			y	740.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -803,8 +803,8 @@ graph
 		label	"BZ"
 		graphics
 		[
-			x	2143.0
-			y	1234.0
+			x	2479.0
+			y	1087.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -825,8 +825,8 @@ graph
 		label	"CA"
 		graphics
 		[
-			x	2192.0
-			y	1292.0
+			x	2528.0
+			y	1145.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -869,8 +869,8 @@ graph
 		label	"CD"
 		graphics
 		[
-			x	2324.0
-			y	649.0
+			x	2002.4999999999998
+			y	682.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -891,8 +891,8 @@ graph
 		label	"ZR"
 		graphics
 		[
-			x	2319.0
-			y	613.0
+			x	1997.4999999999998
+			y	646.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -913,8 +913,8 @@ graph
 		label	"CF"
 		graphics
 		[
-			x	2220.0
-			y	651.0
+			x	1898.4999999999998
+			y	684.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -935,8 +935,8 @@ graph
 		label	"CG"
 		graphics
 		[
-			x	2276.0
-			y	622.0
+			x	1954.4999999999998
+			y	655.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1045,8 +1045,8 @@ graph
 		label	"CM"
 		graphics
 		[
-			x	2183.0
-			y	603.0
+			x	1861.4999999999998
+			y	636.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1067,8 +1067,8 @@ graph
 		label	"CN"
 		graphics
 		[
-			x	628.0
-			y	1425.0
+			x	784.0
+			y	1226.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1111,8 +1111,8 @@ graph
 		label	"CR"
 		graphics
 		[
-			x	2296.0
-			y	1127.0
+			x	2632.0
+			y	980.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1133,8 +1133,8 @@ graph
 		label	"CU"
 		graphics
 		[
-			x	2297.0
-			y	1249.0
+			x	2633.0
+			y	1102.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1287,8 +1287,8 @@ graph
 		label	"DJ"
 		graphics
 		[
-			x	2321.0
-			y	770.0
+			x	1999.4999999999998
+			y	803.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1485,8 +1485,8 @@ graph
 		label	"ER"
 		graphics
 		[
-			x	2239.0
-			y	748.0
+			x	1917.4999999999998
+			y	781.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1529,8 +1529,8 @@ graph
 		label	"ET"
 		graphics
 		[
-			x	2276.0
-			y	730.0
+			x	1954.4999999999998
+			y	763.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1551,8 +1551,8 @@ graph
 		label	"FI"
 		graphics
 		[
-			x	558.0
-			y	1283.0
+			x	714.0
+			y	1084.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1683,8 +1683,8 @@ graph
 		label	"GA"
 		graphics
 		[
-			x	2258.0
-			y	570.0
+			x	1936.4999999999998
+			y	603.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1749,8 +1749,8 @@ graph
 		label	"GE"
 		graphics
 		[
-			x	735.0
-			y	1292.0
+			x	891.0
+			y	1093.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -1947,8 +1947,8 @@ graph
 		label	"GQ"
 		graphics
 		[
-			x	2260.0
-			y	524.0
+			x	1938.4999999999998
+			y	557.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2013,8 +2013,8 @@ graph
 		label	"GT"
 		graphics
 		[
-			x	2169.0
-			y	1183.0
+			x	2505.0
+			y	1036.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2145,8 +2145,8 @@ graph
 		label	"HN"
 		graphics
 		[
-			x	2222.0
-			y	1160.0
+			x	2558.0
+			y	1013.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2233,8 +2233,8 @@ graph
 		label	"ID"
 		graphics
 		[
-			x	548.0
-			y	1830.0955239408866
+			x	704.0
+			y	1631.0955239408866
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2277,8 +2277,8 @@ graph
 		label	"IL"
 		graphics
 		[
-			x	1631.0
-			y	1243.0
+			x	1456.0
+			y	1027.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2321,8 +2321,8 @@ graph
 		label	"IN"
 		graphics
 		[
-			x	620.0
-			y	1531.0
+			x	776.0
+			y	1332.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2365,8 +2365,8 @@ graph
 		label	"IQ"
 		graphics
 		[
-			x	1388.0
-			y	1383.0
+			x	1213.0
+			y	1167.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2387,8 +2387,8 @@ graph
 		label	"IR"
 		graphics
 		[
-			x	806.0
-			y	1408.0
+			x	962.0
+			y	1209.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2497,8 +2497,8 @@ graph
 		label	"JO"
 		graphics
 		[
-			x	1531.0
-			y	1350.0
+			x	1356.0
+			y	1134.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2541,8 +2541,8 @@ graph
 		label	"KE"
 		graphics
 		[
-			x	2345.0
-			y	700.0
+			x	2023.4999999999998
+			y	733.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2563,8 +2563,8 @@ graph
 		label	"KG"
 		graphics
 		[
-			x	592.0
-			y	1443.0
+			x	748.0
+			y	1244.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2585,8 +2585,8 @@ graph
 		label	"KH"
 		graphics
 		[
-			x	477.0
-			y	1555.0
+			x	633.0
+			y	1356.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2673,8 +2673,8 @@ graph
 		label	"KP"
 		graphics
 		[
-			x	581.0
-			y	1348.0
+			x	737.0
+			y	1149.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2695,8 +2695,8 @@ graph
 		label	"KR"
 		graphics
 		[
-			x	499.0
-			y	1404.0
+			x	655.0
+			y	1205.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2717,8 +2717,8 @@ graph
 		label	"KW"
 		graphics
 		[
-			x	1464.0
-			y	1441.0
+			x	1289.0
+			y	1225.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2761,8 +2761,8 @@ graph
 		label	"KZ"
 		graphics
 		[
-			x	648.0
-			y	1369.0
+			x	804.0
+			y	1170.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2783,8 +2783,8 @@ graph
 		label	"LA"
 		graphics
 		[
-			x	526.0
-			y	1530.0
+			x	682.0
+			y	1331.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2805,8 +2805,8 @@ graph
 		label	"LB"
 		graphics
 		[
-			x	1571.0
-			y	1311.0
+			x	1396.0
+			y	1095.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -2915,8 +2915,8 @@ graph
 		label	"LS"
 		graphics
 		[
-			x	2482.0
-			y	547.0
+			x	2160.5
+			y	580.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3223,8 +3223,8 @@ graph
 		label	"MM"
 		graphics
 		[
-			x	564.0
-			y	1557.0
+			x	720.0
+			y	1358.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3245,8 +3245,8 @@ graph
 		label	"MN"
 		graphics
 		[
-			x	634.0
-			y	1331.0
+			x	790.0
+			y	1132.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3443,8 +3443,8 @@ graph
 		label	"MW"
 		graphics
 		[
-			x	2418.0
-			y	540.0
+			x	2096.5
+			y	573.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3465,8 +3465,8 @@ graph
 		label	"MX"
 		graphics
 		[
-			x	2206.0
-			y	1229.0
+			x	2542.0
+			y	1082.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3487,8 +3487,8 @@ graph
 		label	"MY"
 		graphics
 		[
-			x	598.0
-			y	1710.0955239408866
+			x	754.0
+			y	1511.0955239408866
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3509,8 +3509,8 @@ graph
 		label	"MZ"
 		graphics
 		[
-			x	2454.0
-			y	598.0
+			x	2132.5
+			y	631.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3531,8 +3531,8 @@ graph
 		label	"NA"
 		graphics
 		[
-			x	2433.0
-			y	699.0
+			x	2111.5
+			y	732.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3619,8 +3619,8 @@ graph
 		label	"NG"
 		graphics
 		[
-			x	2044.0
-			y	627.0
+			x	1722.4999999999998
+			y	660.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3641,8 +3641,8 @@ graph
 		label	"NI"
 		graphics
 		[
-			x	2276.0
-			y	1186.0
+			x	2612.0
+			y	1039.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3685,8 +3685,8 @@ graph
 		label	"NO"
 		graphics
 		[
-			x	594.0
-			y	1303.0
+			x	750.0
+			y	1104.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3707,8 +3707,8 @@ graph
 		label	"NP"
 		graphics
 		[
-			x	579.0
-			y	1509.0
+			x	735.0
+			y	1310.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3795,8 +3795,8 @@ graph
 		label	"OM"
 		graphics
 		[
-			x	1623.0
-			y	1443.0
+			x	1448.0
+			y	1227.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3817,8 +3817,8 @@ graph
 		label	"PA"
 		graphics
 		[
-			x	2356.0
-			y	1055.0
+			x	2692.0
+			y	908.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3883,8 +3883,8 @@ graph
 		label	"PG"
 		graphics
 		[
-			x	528.0
-			y	1899.0955239408866
+			x	684.0
+			y	1700.0955239408866
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -3927,8 +3927,8 @@ graph
 		label	"PK"
 		graphics
 		[
-			x	701.0
-			y	1494.0
+			x	857.0
+			y	1295.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4037,8 +4037,8 @@ graph
 		label	"PS"
 		graphics
 		[
-			x	1622.0
-			y	1344.0
+			x	1447.0
+			y	1128.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4125,8 +4125,8 @@ graph
 		label	"QA"
 		graphics
 		[
-			x	1542.0
-			y	1515.0
+			x	1367.0
+			y	1299.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4213,8 +4213,8 @@ graph
 		label	"RU"
 		graphics
 		[
-			x	667.0
-			y	1227.0
+			x	823.0
+			y	1028.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4235,8 +4235,8 @@ graph
 		label	"RW"
 		graphics
 		[
-			x	2363.0
-			y	579.0
+			x	2041.4999999999998
+			y	612.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4257,8 +4257,8 @@ graph
 		label	"SA"
 		graphics
 		[
-			x	1523.0
-			y	1435.0
+			x	1348.0
+			y	1219.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4323,8 +4323,8 @@ graph
 		label	"SD"
 		graphics
 		[
-			x	2139.0
-			y	720.0
+			x	1817.4999999999998
+			y	753.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4345,8 +4345,8 @@ graph
 		label	"SE"
 		graphics
 		[
-			x	516.0
-			y	1345.0
+			x	672.0
+			y	1146.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4543,8 +4543,8 @@ graph
 		label	"SO"
 		graphics
 		[
-			x	2375.0
-			y	750.0
+			x	2053.5
+			y	783.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4587,8 +4587,8 @@ graph
 		label	"SS"
 		graphics
 		[
-			x	2269.0
-			y	676.0
+			x	1947.4999999999998
+			y	709.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4631,8 +4631,8 @@ graph
 		label	"SV"
 		graphics
 		[
-			x	2174.0
-			y	1130.0
+			x	2510.0
+			y	983.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4675,8 +4675,8 @@ graph
 		label	"SY"
 		graphics
 		[
-			x	1471.0
-			y	1311.0
+			x	1296.0
+			y	1095.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4697,8 +4697,8 @@ graph
 		label	"SZ"
 		graphics
 		[
-			x	2519.0
-			y	590.0
+			x	2197.5
+			y	623.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4741,8 +4741,8 @@ graph
 		label	"TD"
 		graphics
 		[
-			x	2088.0
-			y	664.0
+			x	1766.4999999999998
+			y	697.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4807,8 +4807,8 @@ graph
 		label	"TH"
 		graphics
 		[
-			x	480.0
-			y	1646.0
+			x	636.0
+			y	1447.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4829,8 +4829,8 @@ graph
 		label	"TJ"
 		graphics
 		[
-			x	644.0
-			y	1495.0
+			x	800.0
+			y	1296.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4873,8 +4873,8 @@ graph
 		label	"TL"
 		graphics
 		[
-			x	482.0
-			y	1866.0955239408866
+			x	638.0
+			y	1667.0955239408866
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4895,8 +4895,8 @@ graph
 		label	"TM"
 		graphics
 		[
-			x	715.0
-			y	1416.0
+			x	871.0
+			y	1217.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -4961,8 +4961,8 @@ graph
 		label	"TR"
 		graphics
 		[
-			x	849.0
-			y	1276.0
+			x	1005.0
+			y	1077.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5049,8 +5049,8 @@ graph
 		label	"TZ"
 		graphics
 		[
-			x	2396.0
-			y	615.0
+			x	2074.5
+			y	648.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5093,8 +5093,8 @@ graph
 		label	"UG"
 		graphics
 		[
-			x	2360.0
-			y	649.0
+			x	2038.4999999999998
+			y	682.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5137,8 +5137,8 @@ graph
 		label	"US"
 		graphics
 		[
-			x	2246.0
-			y	1272.0
+			x	2582.0
+			y	1125.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5181,8 +5181,8 @@ graph
 		label	"UZ"
 		graphics
 		[
-			x	664.0
-			y	1444.0
+			x	820.0
+			y	1245.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5313,8 +5313,8 @@ graph
 		label	"VN"
 		graphics
 		[
-			x	507.0
-			y	1475.0
+			x	663.0
+			y	1276.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5423,8 +5423,8 @@ graph
 		label	"YE"
 		graphics
 		[
-			x	1576.0
-			y	1454.0
+			x	1401.0
+			y	1238.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5467,8 +5467,8 @@ graph
 		label	"ZA"
 		graphics
 		[
-			x	2504.0
-			y	637.0
+			x	2182.5
+			y	670.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5489,8 +5489,8 @@ graph
 		label	"ZM"
 		graphics
 		[
-			x	2432.0
-			y	651.0
+			x	2110.5
+			y	684.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -5511,8 +5511,8 @@ graph
 		label	"ZW"
 		graphics
 		[
-			x	2468.0
-			y	661.0
+			x	2146.5
+			y	694.0
 			w	30.0
 			h	30.0
 			type	"rectangle"

@@ -77,8 +77,8 @@ graph
 		label	"Fabian"
 		graphics
 		[
-			x	135.0
-			y	341.66666666666663
+			x	70.0
+			y	379.66666666666663
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -99,8 +99,8 @@ graph
 		label	"Guenter"
 		graphics
 		[
-			x	-168.0
-			y	187.0
+			x	-161.0
+			y	181.0
 			w	30.0
 			h	30.0
 			type	"rectangle"
@@ -187,8 +187,8 @@ graph
 		label	"Patrick"
 		graphics
 		[
-			x	99.0
-			y	341.66666666666663
+			x	34.0
+			y	379.66666666666663
 			w	30.0
 			h	30.0
 			type	"rectangle"

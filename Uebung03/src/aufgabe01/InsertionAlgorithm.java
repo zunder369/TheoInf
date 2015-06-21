@@ -4,6 +4,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Set;
 
 import org.jgrapht.Graph;
@@ -19,14 +22,17 @@ public class InsertionAlgorithm {
 
 	private SelectionHeuristic heuristic;
 	
+	private final boolean DEBUG = false;
+	
+	
 	public InsertionAlgorithm(SelectionHeuristic eh){
 		this.heuristic = eh;
 	}
 	
 	public WeightedGraph solveTSP(WeightedGraph g){
-		
-		WeightedGraph newGraph = new SimpleWeightedGraph<Vertex, DefaultWeightedEdge>(DefaultWeightedEdge.class);
-		
+		if(DEBUG) System.out.println("Solving TSP");
+		WeightedGraph newGraph = heuristic.getTriangle(g);
+//		System.out.println("Beginning with Triangle: "+newGraph);
 		// algorithm using heuristic
 		do{
 			insert(g, newGraph, heuristic.nextVertex(g, newGraph.vertexSet()));
@@ -37,39 +43,50 @@ public class InsertionAlgorithm {
 	
 	
 	public void insert(WeightedGraph<Vertex, DefaultWeightedEdge> from, WeightedGraph<Vertex, DefaultWeightedEdge> into, Vertex v){
-		System.out.println("INSERT");
+		if(DEBUG) System.out.println("INSERT");
 		into.addVertex(v);
-		System.out.println("added: "+v);
-		//fuege erste Kante hinzu
-		if(into.edgeSet().size() == 0){
-			DefaultWeightedEdge e = heuristic.getFirstEdge(from, v);
-			into.addVertex(from.getEdgeSource(e));
-			into.addVertex(from.getEdgeTarget(e));
-			into.addEdge(from.getEdgeSource(e), from.getEdgeTarget(e));
-			into.setEdgeWeight(e, from.getEdgeWeight(e));
-			return;
-		}
+		if(DEBUG) System.out.println("added: "+v);
 		// suche Kante c_i-c_j bei der die Strecke c_i,v,c_j minimiert wird
 		// Kante für die neue Strecke minimal muss entfernt werden und dafür Umweg eingebaut
 		Set<DefaultWeightedEdge> edges = into.edgeSet();
-		DefaultWeightedEdge minEdge = null;
+		List<DefaultWeightedEdge> replacableEdges = new ArrayList<DefaultWeightedEdge>();
+		DefaultWeightedEdge toReplaceEdge = null;
 		Vertex s = null;
 		Vertex t = null;
 		double minSum = Double.MAX_VALUE;
+		double minDif = Double.MAX_VALUE;
 		// gehe ueber alle Kanten der momentanen Rundreise
 		for (DefaultWeightedEdge e : edges) {
 			s = from.getEdgeSource(e);
 			t = from.getEdgeTarget(e);
-			System.out.println("source: "+s+" target: "+t);
 			double curSum = from.getEdgeWeight(from.getEdge(v, s)) + from.getEdgeWeight(from.getEdge(v, t));
-			System.out.println("cursum: "+curSum);
-			if(curSum < minSum){
-				minSum = curSum;
-				minEdge = e	;
+			double curDif = curSum - from.getEdgeWeight(e);
+//			System.out.println("sum for "+e+": "+curSum+" - Dif: "+curDif);
+			if(curDif < minDif){
+				minDif = curDif;
+				replacableEdges.clear();
 			}
+			if(curDif == minDif){
+				replacableEdges.add(e);
+			}
+//			if(curSum < minSum){
+//				minSum = curSum;
+////				toReplaceEdge = e;
+//				replacableEdges.clear();
+//			}
+//			if(curSum == minSum){
+//				replacableEdges.add(e);
+//			}
 		}
-		s = from.getEdgeSource(minEdge);
-		t = from.getEdgeTarget(minEdge);
+		if(DEBUG) System.out.println("Edges to Choose from: "+Arrays.toString(replacableEdges.toArray()));
+		
+		// RANDOM PART
+		toReplaceEdge = replacableEdges.get((int)(Math.random()*replacableEdges.size()));
+		if(DEBUG) System.out.println("RANDOM: Chose Edge to Replace: "+toReplaceEdge);
+//		if(DEBUG) System.out.println("Chose Edge to Replace: "+toReplaceEdge);
+
+		s = from.getEdgeSource(toReplaceEdge);
+		t = from.getEdgeTarget(toReplaceEdge);
 		// in minEdge ist jetzt die Kante mit dem kleinstem Umweg
 		// fuege Umweg ein 
 		DefaultWeightedEdge sv = into.addEdge(s, v);
@@ -78,7 +95,7 @@ public class InsertionAlgorithm {
 		into.setEdgeWeight(sv, from.getEdgeWeight(from.getEdge(v, s)));
 		into.setEdgeWeight(vt, from.getEdgeWeight(from.getEdge(v, t)));
 		// entferne alte Kante
-		into.removeEdge(minEdge);
+		into.removeEdge(toReplaceEdge);
 	}
 	
 	

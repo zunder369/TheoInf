@@ -22,12 +22,12 @@ graph
 	node
 	[
 		id 4
-		label "B"
+		label "C"
 	]
 	node
 	[
 		id 5
-		label "C"
+		label "B"
 	]
 	node
 	[
@@ -37,34 +37,41 @@ graph
 	edge
 	[
 		id 1
-		source 1
-		target 4
-		label "4"
+		source 3
+		target 2
+		label "2"
 	]
 	edge
 	[
 		id 2
-		source 3
-		target 5
+		source 1
+		target 4
 		label "5"
 	]
 	edge
 	[
 		id 3
-		source 5
+		source 4
 		target 2
 		label "3"
 	]
 	edge
 	[
 		id 4
-		source 4
+		source 1
+		target 5
+		label "4"
+	]
+	edge
+	[
+		id 5
+		source 5
 		target 6
 		label "3"
 	]
 	edge
 	[
-		id 5
+		id 6
 		source 6
 		target 3
 		label "3"
