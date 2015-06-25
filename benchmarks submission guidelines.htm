@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <title>benchmarks submission guidelines</title>
+  <link rel="stylesheet" type="text/css" href="benchmarks%20submission%20guidelines-Dateien/sat09.css">
+</head>
+<body>
+ 
+<h1>SAT Competition 2009: Benchmark Submission Guidelines</h1>
+<p>Last update: $LastChangedDate: 2009-01-13 13:00:45 +0100 (mar. 13 janv. 2009) $.
+</p>    
+<h2>Submission format</h2>
+  The submission can be a set of instances or a generator of instances. The
+set of instances should be representative of the problem to be solved at
+various scale. Generators should provide some parameters to scale the instances. 
+ 
+<h3>Generator format</h3>
+  The generator is a program to be launched on a Linux environment with some
+scaling parameters and a random seed if applicable. (for instance, a random
+3-SAT generator will have two scaling parameters (nbvar,nbclauses) and a
+random seed parameter). It will output the instance on the standard output,
+using the file format below. The command line parameters will appear in the
+first commented lines of the instance.  
+<h3>File format</h3>
+ The benchmark file format will be in a simplified version of the DIMACS
+format: 
+<pre>c<br>c start with comments<br>c<br>c <br>p cnf 5 3<br>1 -5 4 0<br>-1 5 3 4 0<br>-3 -4 0<br></pre>
+  
+<ul>
+ <li>The file can start with comments, that is lines begining with the character
+c. </li>
+  <li>Right after the comments, there is the line p cnf nbvar nbclauses 
+  indicating that the instance is in CNF format; nbvar is the exact number of 
+  variables appearing in the file; nbclauses is the exact number of clauses 
+  contained in the file. </li>
+  <li>Then the clauses follow. Each clause is a sequence of distinct non-null
+numbers between -nbvar and nbvar ending with 0 on the same line; it cannot
+contain the opposite literals i and -i simultaneously. Positive numbers denote
+the corresponding variables. Negative numbers denote the negations of the
+corresponding variables. </li>
+</ul>
+  
+<h2>Categories</h2>
+  The benchmarks will be submitted in one of the following categories: 
+<ul>
+ <li> Random uniform k-SAT</li>
+ <li> Applications</li>
+ <li> Crafted (all others) </li>
+</ul>
+  Each instance should be submitted as SATISFIABLE,  UNSATISFIABLE or UNKNOWN. 
+
+<h3>Random uniform k-SAT</h3>
+<p>That category is
+limited to usual uniform random k-SAT instances.  Only generator
+submissions are allowed here. Any generator must be able to produce
+many essentially different benchmarks for the same scaling parameters
+(given a different random seed). 
+</p>
+<h3>Applications (aka industrial)</h3>
+<p>Here we should find instances from various applications, such as model checking,
+planning, encryption, bioinformatic, etc. 
+</p>
+<p>The instances here must encode translation into SAT of concrete problems,
+whose solution is of practical interest.</p>
+<p>That category is intended to
+provide a snapshot of the current strength of solvers as engines for
+SAT based applications.
+</p>
+<h3>Crafted (all others)</h3>
+The benchmarks especially made to give a hard time to the solver.  There
+will be an award for the smallest instance that cannot be  solved by any
+solver. 
+
+<p>Both instances or instance generators can be submitted. Here, no
+UNKNOWN instances.  For both satisfiable and unsatisfiable instances,
+a proof must be submitted (e.g., a reference to a paper where the
+corresponding theorem is proved). Benchmarks looking-like
+uniform random instances that were crafted to be even harder have
+their place in that category. Mathematical problems encoded in SAT are also typically in this category.</p>
+
+ 
+<h2><font color="green">Series</font></h2>
+
+A series is a set of similar benchmarks. For instance, in the random
+category, a series of benchmarks is a set of N benchmarks having the
+same ratio #clauses/#variables or the same number of variables for
+different ratios.  All the series will have the same size, presumably 10
+benchmarks.  The size of the series may change according to the number
+of submitted solvers and benchmarks.
+
+
+
+</body></html>

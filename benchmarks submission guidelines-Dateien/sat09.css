@@ -1,0 +1,37 @@
+
+h1 {
+	color: navy;
+}
+
+h2 {
+	color: blue;
+	font-style: italic;
+}
+
+.organizers {
+	border-style: dashed;
+	border-width: 0.1em;
+	background-color: #ffedaa;
+}
+
+dt {
+	color: #ff6804;
+	background-color: inherit;
+	font-weight: bold;
+}
+
+.details {
+	background-color: lightgray;
+	border-style: dashed;
+	border-width: 0.1em;
+	text-align: left;
+	font-style: normal;
+}    
+
+.detailssoon {
+	background-color: yellow;
+	border-style: dashed;
+	border-width: 0.1em;
+	text-align: center;
+	font-style: italic;
+}
