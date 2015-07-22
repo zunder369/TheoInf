@@ -38,7 +38,6 @@ public class KNFReader {
 			String line = "";
 			
 			while(line != null){
-				
 				line = br.readLine();
 				if(line != null && line.startsWith("p")) start = true;
 				if(line != null && start) list.add(line);
@@ -65,7 +64,11 @@ public class KNFReader {
 				clause[val] = 1;
 			}
 		}
-		
+		int count = 0;
+		for(int i = 1 ; i<clause.length; i++){
+			if(clause[i] != 0) count ++;
+		}
+		clause[0] = count;
 		return clause;
 	}
 }

@@ -73,43 +73,79 @@ public class GreedyCol2 extends GreedyCol {
 		}
 	}
 
-	// GreedyIS
-	protected Set<Vertex> findIndependentSet(Graph<Vertex, DefaultWeightedEdge> g){
-		// U = null, V = V
-		Set<Vertex> u = new HashSet<Vertex>(); // U das unabhaengige Set das gesucht wird
-		Set<Vertex> vertices = new HashSet<Vertex>(g.vertexSet());
-		
-		while(vertices.size() != 0){// solange noch Knoten in V sind
-			// suche Knoten mit minimalem Grad in V
-			Vertex minDegree = findVerticeOfMinDegree((UndirectedGraph)g, vertices);// missing Random
-			// Füge den Knoten U hinzu
-			u.add(minDegree);
-			// Lösche den Knoten und seine Nachbarn aus V
-			Set<Vertex> neighbors = GraphStuff.getNeighbors(g, minDegree);
-			vertices.removeAll(neighbors);
-			vertices.remove(minDegree);
-		}
-		return u;
-	}
-	
-	
-	private Vertex findVerticeOfMinDegree(UndirectedGraph<Vertex, DefaultWeightedEdge> v, Set<Vertex> vertices) {
-		int min = Integer.MAX_VALUE;
-		Vertex vert = null;
-		
-		for (Vertex vertex : vertices) { // laufe ueber alle Knoten
-			int degree = v.degreeOf(vertex); // hole Grad des Knoten
-			if(degree < min){
-				min = degree;
-				vert = vertex;
-			}
-			else if(degree == min && Math.random() < RANDOM){ // randomisiert Knoten im Minimum wechseln
-				vert = vertex;
-			}
-		}
-		return vert;	
-	}
+//	// GreedyIS
+//	protected Set<Vertex> findIndependentSet(Graph<Vertex, DefaultWeightedEdge> g){
+//		// U = null, V = V
+//		Set<Vertex> u = new HashSet<Vertex>(); // U das unabhaengige Set das gesucht wird
+//		Set<Vertex> vertices = new HashSet<Vertex>(g.vertexSet());
+//		
+//		while(vertices.size() != 0){// solange noch Knoten in V sind
+//			// suche Knoten mit minimalem Grad in V
+//			Vertex minDegree = findVerticeOfMinDegree((UndirectedGraph)g, vertices);// missing Random
+//			// Füge den Knoten U hinzu
+//			u.add(minDegree);
+//			// Lösche den Knoten und seine Nachbarn aus V
+//			Set<Vertex> neighbors = GraphStuff.getNeighbors(g, minDegree);
+//			vertices.removeAll(neighbors);
+//			vertices.remove(minDegree);
+//		}
+//		return u;
+//	}
+//	
+//	
+//	private Vertex findVerticeOfMinDegree(UndirectedGraph<Vertex, DefaultWeightedEdge> v, Set<Vertex> vertices) {
+//		int min = Integer.MAX_VALUE;
+//		Vertex vert = null;
+//		
+//		for (Vertex vertex : vertices) { // laufe ueber alle Knoten
+//			int degree = v.degreeOf(vertex); // hole Grad des Knoten
+//			if(degree < min){
+//				min = degree;
+//				vert = vertex;
+//			}
+//			else if(degree == min && Math.random() < RANDOM){ // randomisiert Knoten im Minimum wechseln
+//				vert = vertex;
+//			}
+//		}
+//		return vert;	
+//	}
 
+	// GreedyIS
+		protected Set<Vertex> findIndependentSet(Graph<Vertex, DefaultWeightedEdge> g){
+			// U = null, V = V
+			Set<Vertex> u = new HashSet<Vertex>(); // U das unabhaengige Set das gesucht wird
+			Set<Vertex> vertices = new HashSet<Vertex>(g.vertexSet());
+			
+			while(vertices.size() != 0){// solange noch Knoten in V sind
+				// suche Knoten mit minimalem Grad in V
+				Vertex maxDegree = findVerticeOfMaxDegree((UndirectedGraph)g, vertices);// missing Random
+				// Füge den Knoten U hinzu
+				u.add(maxDegree);
+				// Lösche den Knoten und seine Nachbarn aus V
+				Set<Vertex> neighbors = GraphStuff.getNeighbors(g, maxDegree);
+				vertices.removeAll(neighbors);
+				vertices.remove(maxDegree);
+			}
+			return u;
+		}
+		
+		
+		private Vertex findVerticeOfMaxDegree(UndirectedGraph<Vertex, DefaultWeightedEdge> v, Set<Vertex> vertices) {
+			int max = Integer.MIN_VALUE;
+			Vertex vert = null;
+			
+			for (Vertex vertex : vertices) { // laufe ueber alle Knoten
+				int degree = v.degreeOf(vertex); // hole Grad des Knoten
+				if(degree > max){
+					max = degree;
+					vert = vertex;
+				}
+				else if(degree == max && Math.random() < RANDOM){ // randomisiert Knoten im Minimum wechseln
+					vert = vertex;
+				}
+			}
+			return vert;	
+		}
 	
 	
 	
@@ -130,7 +166,7 @@ public class GreedyCol2 extends GreedyCol {
 		int c = min;
 		
 		long t = System.currentTimeMillis();
-		for (int i = 0; i < 1; i++) {
+		for (int i = 0; i < 100; i++) {
 			worldCol = greedy.colorate(worldClean);
 			c = GraphStuff.colorsInGraph(worldCol);
 			colsNeeded[c]++;
